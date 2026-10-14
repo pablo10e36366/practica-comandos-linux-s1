@@ -1,0 +1,26 @@
+   62  pwd
+   63  mkdir proyecto_comandos
+   64  cd proyecto_comandos
+   65  mkdir documentos imagenes scripts
+   66  ls
+   67  touch documentos/notas.txt
+   68  echo "Estoy aprendiendo comandos de Linux." > documentos/notas.txt
+   69  echo "El comando ls muestra archivos y carpetas." >> documentos/notas.txt
+   70  echo "El comando mkdir permite crear carpetas." >> documentos/notas.txt
+   71  cat documentos/notas.txt
+   72  cp documentos/notas.txt scripts/backup_notas.txt
+   73  ls scripts
+   74  mv scripts/backup_notas.txt imagenes/
+   75  ls imagenes
+   76  touch documentos/resumen.txt
+   77  cat documentos/notas.txt > documentos/resumen.txt
+   78  echo "Esta practica me ayuda a comprender Linux." >> documentos/resumen.txt
+   79  cat documentos/resumen.txt
+   80  rm imagenes/backup_notas.txt
+   81  rmdir imagenes
+   82  ls
+   83  history | tee tarea-s1-pablo_apellido.txt
+   84  history | tee tarea-s1-pablo_ortega.txt
+   85  rm tarea-s1-pablo_apellido.txt
+   86  ls
+   87  history | awk '$1 >= 62' | tee tarea-s1-pablo_ortega.txt

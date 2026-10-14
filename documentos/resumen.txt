@@ -1,0 +1,4 @@
+Estoy aprendiendo comandos de Linux.
+El comando ls muestra archivos y carpetas.
+El comando mkdir permite crear carpetas.
+Esta practica me ayuda a comprender Linux.
